@@ -48,10 +48,10 @@ const AIStylist = () => {
             <ScrollArea className="h-full pr-2">
               <div className="space-y-4">
                 {messages.length === 0 ? (
-                  <div className="text-center text-sm text-muted-foreground mt-10 px-4">
+                  <div className="text-left text-sm text-muted-foreground mt-10 px-4">
                     👋 Hi there! I'm your <strong>AI Stylist</strong>. Ask me
                     anything about:
-                    <ul className="list-disc text-left mt-2 ml-5 space-y-1">
+                    <ul className=" list-disc text-left mt-2 ml-5 space-y-1">
                       <li>Styling your wardrobe</li>
                       <li>Outfits for events or seasons</li>
                       <li>Combining clothes & accessories</li>
